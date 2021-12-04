@@ -3,6 +3,7 @@
 
 #include <algorithm>
 #include <array>
+#include <bitset>
 #include <vector>
 #include <unordered_map>
 #include <unordered_set>
