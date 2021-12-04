@@ -23,6 +23,7 @@ include_directories("${PROJECT_SOURCE_DIR}/include")
 set(
 	FILES
 	"Day01_SonarSweep"
+	"Day02_Dive"
 )
 
 foreach(FILE ${FILES})
