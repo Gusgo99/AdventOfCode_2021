@@ -20,4 +20,35 @@
 #include <optional>
 #include <regex>
 
+inline std::vector<std::string_view> split(std::string_view string, const std::string_view separator) {
+	std::vector<std::string_view> substrings;
+
+	while(true) {
+		const auto substringIndex = string.find(separator);
+		auto substring = string.substr(0, substringIndex);
+
+		const auto lastNonSpaceIndex = substring.find_last_not_of(' ');
+		const auto stringSize = substring.size();
+		substring.remove_suffix(stringSize - lastNonSpaceIndex - 1);
+
+		if(!substring.empty()) substrings.emplace_back(substring);
+
+		string.remove_prefix(substringIndex + separator.size());
+		string = string.substr(string.find_first_not_of(' '));
+
+		if(substringIndex == std::string_view::npos) break;
+
+	}
+
+	return substrings;
+}
+struct hash_pair {
+	template <class T1, class T2>
+	size_t operator()(const std::pair<T1, T2> &p) const {
+		auto hash1 = std::hash<T1>{}(p.first);
+		auto hash2 = std::hash<T2>{}(p.second);
+		return hash1 ^ hash2;
+	}
+};
+
 #endif
