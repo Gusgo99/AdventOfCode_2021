@@ -28,6 +28,7 @@ set(
 	"Day04_GiantSquid"
 	"Day05_HydrothermalVenture"
 	"Day06_Lanternfish"
+	"Day07_TheTreacheryOfWhales"
 )
 
 foreach(FILE ${FILES})
