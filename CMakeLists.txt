@@ -39,6 +39,7 @@ set(
 	"Day15_Chiton"
 	"Day16_PacketDecoder"
 	"Day17_TrickShot"
+	"Day18_Snailfish"
 )
 
 foreach(FILE ${FILES})
