@@ -44,6 +44,7 @@ set(
 	"Day20_TrenchMap"
 	"Day21_DiracDice"
 	"Day22_ReactorReboot"
+	"Day23_Amphipod"
 )
 
 foreach(FILE ${FILES})
