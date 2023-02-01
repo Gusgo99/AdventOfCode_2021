@@ -30,6 +30,7 @@ set(
 	"Day06_Lanternfish"
 	"Day07_TheTreacheryOfWhales"
 	"Day08_SevenSegmentSearch"
+	"Day09_SmokeBasin"
 )
 
 foreach(FILE ${FILES})
