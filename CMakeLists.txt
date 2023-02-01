@@ -36,6 +36,7 @@ set(
 	"Day12_PassagePathing"
 	"Day13_TransparentOrigami"
 	"Day14_ExtendedPolymerization"
+	"Day15_Chiton"
 )
 
 foreach(FILE ${FILES})
