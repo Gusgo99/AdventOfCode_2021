@@ -38,6 +38,7 @@ set(
 	"Day14_ExtendedPolymerization"
 	"Day15_Chiton"
 	"Day16_PacketDecoder"
+	"Day17_TrickShot"
 )
 
 foreach(FILE ${FILES})
