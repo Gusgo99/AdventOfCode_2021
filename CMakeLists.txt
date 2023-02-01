@@ -34,6 +34,7 @@ set(
 	"Day10_SyntaxScoring"
 	"Day11_DumboOctopus"
 	"Day12_PassagePathing"
+	"Day13_TransparentOrigami"
 )
 
 foreach(FILE ${FILES})
