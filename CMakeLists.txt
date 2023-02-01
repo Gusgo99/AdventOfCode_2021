@@ -45,6 +45,7 @@ set(
 	"Day21_DiracDice"
 	"Day22_ReactorReboot"
 	"Day23_Amphipod"
+	"Day24_ArithmeticLogicUnit"
 )
 
 foreach(FILE ${FILES})
