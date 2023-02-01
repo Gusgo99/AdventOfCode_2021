@@ -46,6 +46,7 @@ set(
 	"Day22_ReactorReboot"
 	"Day23_Amphipod"
 	"Day24_ArithmeticLogicUnit"
+	"Day25_SeaCucumber"
 )
 
 foreach(FILE ${FILES})
