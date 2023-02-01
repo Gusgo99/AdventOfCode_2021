@@ -42,6 +42,7 @@ set(
 	"Day18_Snailfish"
 	"Day19_BeaconScanner"
 	"Day20_TrenchMap"
+	"Day21_DiracDice"
 )
 
 foreach(FILE ${FILES})
