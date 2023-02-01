@@ -32,6 +32,7 @@ set(
 	"Day08_SevenSegmentSearch"
 	"Day09_SmokeBasin"
 	"Day10_SyntaxScoring"
+	"Day11_DumboOctopus"
 )
 
 foreach(FILE ${FILES})
